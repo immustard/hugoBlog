@@ -64,7 +64,7 @@ seo:
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="http://mustard_gxg.gitee.io/pic/pictures/2022-03/202203171133969.png" width = "65%" alt="" onclick="window.open(this.src)"/>
+    src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/2022-03/202203171133969.png" width = "65%" alt="" onclick="window.open(this.src)"/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -73,6 +73,7 @@ seo:
       逻辑地址生成
   	</div>   
 </center>
+
 
 从最开始的**'符号逻辑地址'**到最终的**'具体逻辑地址'**, 经过了上面的这些转换过程, 而这些过程是基本上不需要操作系统来帮助的, 而是通过应用程序、编译器或者Loader就可以完成.  但是当把这个地址放入到内存中之后也是逻辑地址而不是物理地址. 
 
@@ -83,7 +84,7 @@ seo:
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="http://mustard_gxg.gitee.io/pic/pictures/2022-04/202204271432111.png" width = "65%" alt="" onclick="window.open(this.src)"/>
+    src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/2022-04/202204271432111.png" width = "65%" alt="" onclick="window.open(this.src)"/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -92,6 +93,7 @@ seo:
       物理地址生成
   	</div>
 </center>
+
 
 * CPU方面: 
 
