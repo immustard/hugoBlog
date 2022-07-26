@@ -135,7 +135,7 @@ enableEmoji = true
         # 文章内容最长索引长度
         contentLength = 4000
         # 搜索框的占位提示语
-        placeholder = "         搜索"
+        placeholder = " "
         # 最大结果数目
         maxResultLength = 10
         # 结果内容片段长度
@@ -145,7 +145,7 @@ enableEmoji = true
         # 是否在搜索索引中使用基于 baseURL 的绝对路径
         absoluteURL = false
         [languages.zh-cn.params.search.algolia]
-          index = "buli-home"
+          index = "zh-cn"
           appID = "2PKND1CXGC"
           searchKey = "ed1ddbc039865dff516f78d4d0ca9e2e"
       # 主页信息设置
