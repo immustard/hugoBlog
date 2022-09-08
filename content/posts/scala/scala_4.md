@@ -2,7 +2,7 @@
 title: "Scala控制流程"
 subtitle: ""
 date: 2022-07-15T15:51:27+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
@@ -171,7 +171,7 @@ println(res)
 
 
 
-#### 8. 倒数
+#### 8. 倒序
 
 ```scala
 for (i <- 1 to 10 reverse) {
@@ -179,3 +179,108 @@ for (i <- 1 to 10 reverse) {
 }
 ```
 
+
+
+### `while`和`do..while`
+
+Scala 中的`while`和`do..while`和 Java 中的用法一致
+
+
+
+#### `while`
+
+1. 循环条件是返回一个布尔值的表达式
+2. `while`先判断再执行
+3. 与`for`不同, **`while`没有返回值**, 即整个`while`语句的**结果是`Unit`类型** 
+
+
+
+#### `do..while`
+
+1. 循环条件是返回一个布尔值的表达式
+2. `do..while`先执行再判断
+
+
+
+## 循环中断
+
+Scala 内置控制结构特地**去掉了`break`和`continue`**. 是因为更好的适应**函数式编程**, 推荐使用函数式的风格解决`break`和`continue`, 而不是一个关键字. Scala 中使用`breakable`控制结构来实现`break`和`continue`功能. 
+
+
+
+### 异常的方式退出
+
+```scala
+def main(args: Array[String]): Unit = {
+    try {
+        for (elem <- 1 to 10) {
+            println(elem)
+            if (elem == 5) throw new RuntimeException
+        }
+    } catch {
+        case e =>
+    }
+    println("结束循环")
+}
+```
+
+
+
+### Scala 自带函数退出
+
+```scala
+import scala.util.control.Breaks
+
+def main(args: Array[String]): Unit = {
+    Breaks.breakable(
+        for (ele <- 1 to 10) {
+            println(ele)
+            if (ele == 5) Breaks.break()
+        }
+    )
+
+    println("结束循环")
+}
+```
+
+
+
+### 对`break`进行省略
+
+```scala
+import scala.util.control.Breaks._
+
+def main(args: Array[String]): Unit = {
+    breakable(
+        for (ele <- 1 to 10) {
+            println(ele)
+            if (ele == 5) break
+        }
+    )
+
+    println("结束循环")
+}
+```
+
+
+
+### `continue`
+
+```scala
+import scala.util.control.Breaks._
+
+def main(args: Array[String]): Unit = {
+    for (ele <- 1 to 10) {
+        breakable(
+            if (ele % 2 == 1)
+            	break
+            else
+            	println(ele)
+        )
+    }
+
+    println("结束循环")
+}
+```
+
+这里的`breakable`和上面的区别是将其放入到了循环内部, 这样可以实现结束本次执行而不是整个循环结束, 从而实现`continue`的功能. 
