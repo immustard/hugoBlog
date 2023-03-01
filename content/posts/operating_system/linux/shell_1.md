@@ -1,8 +1,8 @@
 ---
-title: "Kafka Broker"
-subtitle: ""
-date: 2022-09-05T12:47:37+08:00
-draft: false
+title: "Linux Shell 概述"
+subtitle: "Linux Shell Overview"
+date: 2022-09-22T15:40:08+08:00
+draft: true
 author: ""
 authorLink: ""
 description: ""
@@ -12,11 +12,9 @@ comment: false
 weight: 0
 
 tags:
-- Kafka
-- Message Queue
-- big data
+- draft
 categories:
-- Kafka
+- draft
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -43,7 +41,10 @@ seo:
 
 
 
-## Kafka Broker工作流程
+> 这两天为了seatunnel的启动, 自己研究写了一个脚本, 然后发现脚本确确实实可以提升开发的效率. 同时也是为了能够了解运维人员的脚本的含义, 所以觉得系统的了解一下**Linux Shell**相关的知识. 
 
-### Zookeeper存储的Kafka信息
 
+
+## Linux
+
+在学习 Linux Shell 之前, 肯定要先知道什么
