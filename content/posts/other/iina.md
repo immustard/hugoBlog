@@ -12,9 +12,9 @@ comment: false
 weight: 0
 
 tags:
-- draft
+- tools
 categories:
-- draft
+- tools
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
