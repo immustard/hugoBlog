@@ -4,7 +4,7 @@ baseURL = "https://buli-home.cn"
 defaultContentLanguage = "zh-cn"
 # theme
 # 主题
-theme = "FixIt"
+theme = "FixIt-0.2.18"
 # themes directory
 # 主题目录
 themesDir = "./themes"
@@ -270,7 +270,7 @@ enableEmoji = true
 [params]
   # FixIt theme version
   # FixIt 主题版本
-  version = "0.2.X"
+  version = "0.2.18"
   # site default theme ("light", "dark", "auto")
   # 网站默认主题 ("light", "dark", "auto")
   defaultTheme = "auto"
@@ -356,6 +356,20 @@ enableEmoji = true
     # 许可协议信息 (支持 HTML 格式)
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
+    [params.footer.siteTime]
+      enable = true
+      animate = true
+      icon = "fa-solid fa-heartbeat"
+      pre = "Buli Home"
+      value = "2021-11-20T08:27:00+08:00" # e.g. "2021-12-18T16:15:22+08:00"
+    # FixIt 0.2.17 | 新增 页面底部行排序，可选值：["first", 0, 1, 2, 3, 4, 5, "last"]
+    [params.footer.order]
+      powered = 0
+      copyright = 0
+      statistics = 0
+      visitor = 0
+      beian = 0
+
   # Section (all posts) page config
   # Section (所有文章) 页面配置
   [params.section]
@@ -385,6 +399,8 @@ enableEmoji = true
   # Page config
   # 文章页面配置
   [params.page]
+    # FixIt 0.2.18 | 新增 是否启用文章作者头像
+    authorAvatar = true
     # whether to hide a page from home page
     # 是否在主页隐藏一篇文章
     hiddenFromHomePage = false
@@ -441,7 +457,7 @@ enableEmoji = true
       copy = true
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
-      maxShownLines = 10
+      maxShownLines = 16
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
@@ -792,6 +808,36 @@ enableEmoji = true
     # "assets/data/cdn/"
     # data = "jsdelivr.yml"
 
+  # FixIt 0.2.16 | 新增 返回顶部
+  [params.backToTop]
+    enable = true
+    # 在 b2t 按钮中显示滚动百分比
+    scrollpercent = false
+
+  # FixIt 0.2.16 | 新增 阅读进度条
+  [params.readingProgress]
+    enable = false
+    # 可用值：["left", "right"]
+    start = "left"
+    # 可用值：["top", "bottom"]
+    position = "top"
+    reversed = false
+    light = ""
+    dark = ""
+    height = "2px"
+
+  # FixIt 0.2.17 | 新增 页面加载期间顶部的进度条
+  # 有关详细信息：https://github.com/CodeByZach/pace
+  [params.pace]
+    enable = false
+    # 所有可用颜色：
+    # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
+    color = "blue"
+    # 所有可用主题：
+    # ["barber-shop", "big-counter", "bounce", "center-atom", "center-circle", "center-radar", "center-simple",
+    # "corner-indicator", "fill-left", "flash", "flat-top", "loading-bar", "mac-osx", "material", "minimal"]
+    theme = "minimal"
+    
   # Compatibility config
   # 兼容性设置
   [params.compatibility]
