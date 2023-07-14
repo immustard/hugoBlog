@@ -1,8 +1,8 @@
 ---
-title: "CDH环境搭建(一)"
+title: "CDH环境搭建"
 subtitle: "CDH Environment 1st"
 date: 2023-03-01T20:09:33+08:00
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
