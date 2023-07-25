@@ -4,7 +4,7 @@ baseURL = "https://buli-home.cn"
 defaultContentLanguage = "zh-cn"
 # theme
 # 主题
-theme = "FixIt-0.2.18"
+theme = "FixIt"
 # themes directory
 # 主题目录
 themesDir = "./themes"
