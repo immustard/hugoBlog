@@ -1,4 +1,50 @@
- 
+---
+title: 数据库, 数据仓库, 数据集市, 数据湖, 数据中台
+subtitle: Database, Data Warehouse, Data Mart, Data Lake, Data Center
+date: 2023-07-25T11:28:09+08:00
+draft: false
+author:
+  name: 迷路剑客
+  link: https://blog.csdn.net/baichoufei90/article/details/87880848
+  email:
+  avatar:
+description:
+keywords:
+license:
+comment: false
+weight: 0
+tags:
+  - big data
+  - database
+  - data warehouse
+  - data lake
+  - data mark
+  - data center
+categories:
+  - big data
+hiddenFromHomePage: false
+hiddenFromSearch: false
+summary:
+resources:
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
+toc: true
+math: false
+lightgallery: false
+password:
+message:
+repost:
+  enable: true
+  url: https://blog.csdn.net/baichoufei90/article/details/87880848
+
+# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+---
+
+<!--more-->
+
+
 
 转载声明
 ===========================================================================================
