@@ -270,7 +270,7 @@ enableEmoji = true
 [params]
   # FixIt theme version
   # FixIt 主题版本
-  version = "0.2.18"
+  version = "0.2.X"
   # site default theme ("light", "dark", "auto")
   # 网站默认主题 ("light", "dark", "auto")
   defaultTheme = "auto"
