@@ -14,9 +14,10 @@ license:
 comment: false
 weight: 0
 tags:
-  - draft
+  - Network
+  - Proxy
 categories:
-  - draft
+  - Network
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary:
