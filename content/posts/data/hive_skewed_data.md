@@ -14,9 +14,11 @@ license:
 comment: false
 weight: 0
 tags:
-  - draft
+  - big data
+  - database
+  - hive
 categories:
-  - draft
+  - big data
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary:
