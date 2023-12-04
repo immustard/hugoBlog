@@ -1,12 +1,12 @@
 ---
 title: 分布式系统的单点问题
-subtitle: Single point problem
+subtitle: 
 date: 2023-10-23T10:22:21+08:00
-draft: true
+draft: false
 author:
-  name:
+  name: Mustard
   link:
-  email:
+  email: mustard.gxg@gmail.com
   avatar:
 description:
 keywords:
@@ -96,7 +96,7 @@ repost:
 
 ### 方案一: 引入第三方的服务进行裁决
 
-可以引入 [ZooKeeper](:/a8359cab8bc641108d520e03d090dbd9), 由 ZooKeeper 进行裁决. 同样, 启用两个主节点, `节点 A`和`节点 B`. 它们启动之后向 ZooKeeper 去注册一个节点. 假设`节点 A`注册的节点为`master001`, `节点 B`注册的节点为`master002`, 注册完成后进行选举, 编号小的节点为真正的节点. 那么, 通过这种方式就完成了对两个 Master 进程的调度. 
+可以引入 ZooKeeper, 由 ZooKeeper 进行裁决. 同样, 启用两个主节点, `节点 A`和`节点 B`. 它们启动之后向 ZooKeeper 去注册一个节点. 假设`节点 A`注册的节点为`master001`, `节点 B`注册的节点为`master002`, 注册完成后进行选举, 编号小的节点为真正的节点. 那么, 通过这种方式就完成了对两个 Master 进程的调度. 
 
 <center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202309191432028.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       ZooKeeper 托管主节点   	</div> </center>
 
@@ -143,3 +143,4 @@ repost:
 在故障的情况下也不会造成伤害或者尽量减少伤害. 
 
 🌰: 写入监控日志出错时, 不会对主业务的成败产生影响. 
+
