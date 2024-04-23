@@ -46,6 +46,10 @@ seo:
 
 
 
+> 官方文档: [传送门](https://github.com/alibaba/canal/wiki)
+
+
+
 ### Canal的起源
 
 阿里巴巴 B2B 公司, 因为业务的特性, 卖家主要集中在国内, 买家主要集中在国外, 所以衍生出了**同步杭州和美国异地机房**的需求, 从2010年开始, 阿里系公司开始逐步的尝试基于数据库的日志解析, 获取增量变更进行同步, 由此衍生出了增量 订阅&消费 的业务. 
@@ -103,7 +107,9 @@ MySQL Binlog 的格式有三种, 分别是 STATEMENT,MIXED,ROW . 在配置文件
 2. Slave 从库向 MySQL Slave 发送 dump 协议, 将 Master 主库的 binlog events 拷贝到它的中继日志(relay log);
 3. Slave 从库读取并重做中继日志中的事件, 将改变的数据同步到自己的数据库. 
 
-<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202207260907350.png" width = "65%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       MySQL主从复制过程   	</div> </center>
+
+
+<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202207281640445.png" width = "65%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       官方文档: MySQL主从复制过程   	</div> </center>
 
 #### Canal的工作原理
 
@@ -332,7 +338,7 @@ canal.instance.filter.black.field=data_center.canal_test_2:column_2,data_center.
    canal.id = 1
    canal.ip =
    canal.port = 11111
-   canal.metrics.pull.po rt = 11112
+   canal.metrics.pull.port = 11112
    canal.zkServers =
    # flush data to zk
    canal.zookeeper.flush.period = 1000
