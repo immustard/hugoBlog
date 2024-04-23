@@ -3,8 +3,11 @@ title: "AES初了解"
 subtitle: ""
 date: 2024-04-23T10:59:07+08:00
 draft: false
-author: ""
-authorLink: ""
+author:
+  name: Mustard
+  link:
+  email: mustard.gxg@gmail.com
+  avatar:
 description: ""
 keywords: ""
 license: ""
