@@ -3,6 +3,11 @@ title: "Scala函数式编程"
 subtitle: ""
 date: 2022-08-15T10:01:58+08:00
 draft: true
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""

@@ -3,6 +3,11 @@ title: "MySQL生产经验"
 subtitle: ""
 date: 2021-12-27T19:14:34+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,7 +17,7 @@ comment: false
 weight: 0
 
 tags:
-- Database
+- database
 - MySQL
 categories:
 - MySQL

@@ -3,6 +3,11 @@ title: "部署Seatunnel引擎"
 subtitle: "Deploy Seatunnel Engine"
 date: 2023-02-28T13:26:37+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -268,4 +273,3 @@ nohup seatunnel-cluster.sh &
 ## 8. 安装`Seatunnel Engine`客户端
 
 只需要将`Seatunnel Engine`节点上的`$Seatunnel Engine`目录复制到客户端节点, 并像`Seatunnel Engine`服务节点一样配置`$Seatunnel Engine`就可以了. 
- 

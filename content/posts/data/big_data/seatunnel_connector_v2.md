@@ -3,6 +3,11 @@ title: "Seatunnel 连接器 V2 版本"
 subtitle: "Seatunnel Connector V2 Features"
 date: 2023-05-24T13:51:15+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""

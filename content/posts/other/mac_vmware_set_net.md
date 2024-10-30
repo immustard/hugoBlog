@@ -4,21 +4,21 @@ subtitle: Mac set VMware's CentOS Network (NAT Mode)
 date: 2023-07-11T10:37:36+08:00
 draft: false
 author:
-  name:
-  link:
-  email:
-  avatar:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 description:
 keywords:
 license:
 comment: false
 weight: 0
 tags:
-  - CentOS
-  - Operating System
-  - Network
+  - centOS
+  - operating system
+  - network
 categories:
-  - CentOS
+  - centOS
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary:
@@ -44,6 +44,7 @@ repost:
  > 因为每次都要去网上找教程 (😂), 所以记录一下自己的配置过程
 
 1. VMware 默认配置就为 NAT 模式
+	
 	<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202307110922359.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       NAT 模式   	</div> </center>
 2. 关闭防火墙
 	```bash

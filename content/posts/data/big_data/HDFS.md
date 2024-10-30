@@ -3,6 +3,11 @@ title: "Hadoop分布式文件系统——HDFS"
 subtitle: "HDFS"
 date: 2023-02-27T16:59:57+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -13,11 +18,11 @@ weight: 0
 
 tags:
 - big data
-- Hadoop
+- hadoop
 - HDFS
 categories:
 - big data
-- Hadoop
+- hadoop
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

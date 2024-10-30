@@ -3,6 +3,11 @@ title: "正则表达式"
 subtitle: "Regular Expression"
 date: 2023-01-03T13:50:53+08:00
 draft: true
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,9 +17,9 @@ comment: false
 weight: 0
 
 tags:
-- Regular Expression
+- regular expression
 categories:
-- Regular Expression
+- regular expression
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

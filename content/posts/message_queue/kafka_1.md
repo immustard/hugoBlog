@@ -3,6 +3,11 @@ title: "Kafka概述"
 subtitle: "Kafka Overview"
 date: 2022-07-26T14:33:48+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -13,7 +18,7 @@ weight: 0
 
 tags:
 - Kafka
-- Message Queue
+- message queue
 - big data
 categories:
 - Kafka

@@ -4,10 +4,10 @@ subtitle: ""
 date: 2024-04-23T10:59:07+08:00
 draft: false
 author:
-  name: Mustard
-  link:
-  email: mustard.gxg@gmail.com
-  avatar:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 description: ""
 keywords: ""
 license: ""
@@ -15,11 +15,11 @@ comment: false
 weight: 0
 
 tags:
-- Security
+- security
 - AES
-- Encrypt
+- encrypt
 categories:
-- Security
+- security
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

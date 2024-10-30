@@ -3,6 +3,11 @@ title: "Debezium"
 subtitle: ""
 date: 2022-07-28T16:49:12+08:00
 draft: true
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""

@@ -3,6 +3,11 @@ title: "Scala变量和数据类型"
 subtitle: ""
 date: 2022-07-07T09:00:03+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""

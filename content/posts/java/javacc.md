@@ -3,6 +3,11 @@ title: "JavaCC"
 subtitle: ""
 date: 2023-06-13T10:49:56+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -59,6 +64,7 @@ JavaCC 的全称是 Java Compiler Compiler (没错就是俩 Compiler), 是用于
 * JavaCC 的词法分析器可以处理完整的 Unicode 输入, 并且词法规范也可以包括任何 Unicode 字符. 这个特性有助于描述语言元素, 例如允许某些 Unicode 字符 (不是 ASCII ) 但不允许其他字符的 Java 标识符. 
 * JavaCC 提供了类 [Lex](https://en.wikipedia.org/wiki/Lex_(software)) 的词法状态和词法动作功能. JavaCC 中优于其他公祖的特定方面是一流状态, 它提供了诸如 `TOKEN`, `MORE`, `SKIP` 和状态更改等概念. 这就允许更清晰的规范以及来自 JavaCC 的更好的错误和警告消息. 
 * 词法规范中顶一个为*特殊标记*的标记 (`Token`) 在解析期间将被忽略. 一个有用的应用是处理评论. 
+	
 	> 最后一句话, 没看明白, 原文是: **A useful application of this is in the processing of comments.** 
 * 词法规范可以在整个词法规范的全局级别或在单个词法规范的基础上定义不区分大小写的标记. 
 * JavaCC 带有 JJTree, 一个非常强大的树构建预处理器. 

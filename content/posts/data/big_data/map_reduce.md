@@ -3,6 +3,11 @@ title: "分布式计算框架--MapReduce"
 subtitle: "MapReduce"
 date: 2023-02-28T13:26:21+08:00
 draft: true
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,11 +17,11 @@ comment: false
 weight: 0
 
 tags:
-- Hadoop
-- Map Reduce
+- hadoop
+- map reduce
 - big data
 categories:
-- Hadoop
+- hadoop
 - big data
 
 hiddenFromHomePage: false

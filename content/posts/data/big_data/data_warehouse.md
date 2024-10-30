@@ -3,6 +3,11 @@ title: "数据仓库"
 subtitle: "Data Warehouse"
 date: 2022-06-14T13:29:39+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 authorEmail: ""

@@ -3,6 +3,11 @@ title: "SQL注入"
 subtitle: "SQL Injection"
 date: 2022-02-24T10:09:59+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,10 +17,10 @@ comment: false
 weight: 0
 
 tags:
-- Security
+- security
 - MySQL
 categories:
-- Security
+- security
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

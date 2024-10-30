@@ -3,6 +3,11 @@ title: "MySQL写入速度调优之`innodb_flush_log_at_trx_commit`"
 subtitle: "Increase writing speed of Mysql -- `innodb_flush_log_at_trx_commit`"
 date: 2023-07-03T11:12:37+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,7 +17,7 @@ comment: false
 weight: 0
 
 tags:
-- Database
+- database
 - MySQL
 categories:
 - MySQL

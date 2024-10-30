@@ -3,6 +3,11 @@ title: "CDH环境搭建"
 subtitle: "CDH Environment 1st"
 date: 2023-03-01T20:09:33+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""

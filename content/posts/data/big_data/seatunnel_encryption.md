@@ -3,6 +3,11 @@ title: "SeaTunnel 配置文件加解密"
 subtitle: "SeaTunnel Encryption"
 date: 2023-05-25T14:27:11+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""

@@ -3,6 +3,11 @@ title: "关于剥离 Taier 中 DatasourceX 组件"
 subtitle: ""
 date: 2023-04-27T13:53:23+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -14,7 +19,7 @@ weight: 0
 tags:
 - DatasourceX
 - Taier
-- Work
+- work
 - DTStack
 categories:
 - DatasourceX

@@ -3,6 +3,11 @@ title: "XSS(跨站脚本攻击)"
 subtitle: ""
 date: 2022-02-23T08:35:48+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,11 +17,11 @@ comment: false
 weight: 0
 
 tags:
-- Security
-- Network
-- HTTP
+- security
+- network
+- http
 categories:
-- Security
+- security
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

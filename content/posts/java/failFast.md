@@ -3,6 +3,11 @@ title: "Fail-fast"
 subtitle: ""
 date: 2022-03-06T16:33:34+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,9 +17,11 @@ comment: false
 weight: 0
 
 tags:
-- Syntactic
+- syntactic
+- Java
 categories:
-- Syntactic
+- syntactic
+- Java
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

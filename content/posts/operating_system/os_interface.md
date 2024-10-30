@@ -3,6 +3,11 @@ title: "系统调用、异常和中断"
 subtitle: "System Call, Exception, Interrupt"
 date: 2022-03-16T13:44:12+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,9 +17,9 @@ comment: false
 weight: 0
 
 tags:
-- Operating System
+- operating system
 categories:
-- Operating System
+- operating system
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

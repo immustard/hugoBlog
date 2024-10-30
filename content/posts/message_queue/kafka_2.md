@@ -3,6 +3,11 @@ title: "Kafka命令行操作"
 subtitle: "Kafka Command Line Operation"
 date: 2022-09-02T10:10:36+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -13,7 +18,7 @@ weight: 0
 
 tags:
 - Kafka
-- Message Queue
+- message queue
 - big data
 categories:
 - Kafka

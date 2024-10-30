@@ -2,6 +2,11 @@
 title: "线性结构和非线性结构"
 subtitle: "Linear & Nonlinear Structure"
 date: 2022-03-07T16:40:35+08:00
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 draft: false
 author: ""
 authorLink: ""
@@ -12,9 +17,9 @@ comment: false
 weight: 0
 
 tags:
-- Data Structure
+- data structure
 categories:
-- Data Structure
+- data structure
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

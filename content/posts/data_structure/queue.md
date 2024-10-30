@@ -3,6 +3,11 @@ title: "队列"
 subtitle: "Queue"
 date: 2022-03-09T10:44:38+08:00
 draft: true
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,10 +17,10 @@ comment: false
 weight: 0
 
 tags:
-- Data Structure
+- data structure
 - Java
 categories:
-- Data Structure
+- data structure
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

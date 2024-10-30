@@ -3,6 +3,11 @@ title: "二分法查找"
 subtitle: "Binary Search"
 date: 2022-03-01T16:11:56+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
@@ -12,10 +17,10 @@ comment: false
 weight: 0
 
 tags:
-- Algorithm
-- Data Structure
+- algorithm
+- data structure
 categories:
-- Data Structure
+- data structure
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

@@ -4,20 +4,20 @@ subtitle: Forward and Reverse Proxy
 date: 2023-08-15T09:43:55+08:00
 draft: false
 author:
-  name:
-  link:
-  email:
-  avatar:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 description:
 keywords:
 license:
 comment: false
 weight: 0
 tags:
-  - Network
-  - Proxy
+  - network
+  - proxy
 categories:
-  - Network
+  - network
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary:

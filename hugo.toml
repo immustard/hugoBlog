@@ -1,0 +1,4 @@
+baseURL = 'https://buli-home.cn/'
+defaultContentLanguage = 'zh-cn'
+title = 'Buli Home'
+theme = "FixIt"

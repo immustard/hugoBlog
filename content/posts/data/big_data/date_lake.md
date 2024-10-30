@@ -3,6 +3,11 @@ title: "数据湖"
 subtitle: "Data Lake"
 date: 2022-06-15T16:19:40+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""

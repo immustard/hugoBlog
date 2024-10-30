@@ -4,10 +4,10 @@ subtitle:
 date: 2023-10-23T10:22:21+08:00
 draft: false
 author:
-  name: Mustard
-  link:
-  email: mustard.gxg@gmail.com
-  avatar:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 description:
 keywords:
 license:

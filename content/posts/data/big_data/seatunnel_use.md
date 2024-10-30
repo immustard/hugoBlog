@@ -3,6 +3,11 @@ title: "Seatunnel使用手册"
 subtitle: ""
 date: 2022-07-12T16:47:48+08:00
 draft: false
+author:
+  name: Mustard	
+  link: https://www.buli-home.cn
+  email: mustard_gxg@foxmail.com
+  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
 author: ""
 authorLink: ""
 description: ""
