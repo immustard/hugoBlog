@@ -13,8 +13,6 @@ math:
 
 {{< image src="https://webp.buli-home.cn/2022/02/202202221426721.jpeg">}}
 
-<img src='https://webp.buli-home.cn/2022/02/202202221426721.jpeg' style='height:300px;width:100%'/>
-
 
 ## 初衷
 
@@ -32,17 +30,10 @@ math:
 
 ## 期许
 
-{{< typeit tag=h4 cursorChar='  >}}
-
-> 不卑不亢，不矜不伐，戒骄戒躁  
-> 不嗔不怒，不争不弃，独善其身
-
-{{< /typeit >}}
-
-
-
----
-
+{{< center-quote >}}
+不卑不亢，不矜不伐，戒骄戒躁  
+不嗔不怒，不争不弃，独善其身
+{{< /center-quote >}}
 
 
 ## 关于我
