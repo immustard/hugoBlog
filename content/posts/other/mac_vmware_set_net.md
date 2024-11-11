@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png
 description:
 keywords:
 license:
@@ -41,11 +41,11 @@ repost:
 
 <!--more-->
 
- > 因为每次都要去网上找教程 (😂), 所以记录一下自己的配置过程
+ > 因为每次都要去网上找教程 (), 所以记录一下自己的配置过程
 
 1. VMware 默认配置就为 NAT 模式
 	
-	<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202307110922359.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       NAT 模式   	</div> </center>
+	{{< html >}}<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://webp.buli-home.cn/2023/07/202307110922359.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       NAT 模式   	</div> </center>{{< /html >}}
 2. 关闭防火墙
 	```bash
 	# 关闭
@@ -61,7 +61,7 @@ repost:
 	> vi /etc/selinux/config
 	```
 	
-	<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202307110914417.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       禁用 selinux   	</div> </center>
+	{{< html >}}<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202307110914417.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       禁用 selinux   	</div> </center>{{< /html >}}
 	
 	> 安全增强型 Linux（Security-Enhanced Linux）简称 SELinux, 它是一个 Linux 内核模块, 也是 Linux 的一个安全子系统. 
 4. 获取 mac vmnet8 的 gateway 地址
@@ -73,7 +73,7 @@ repost:
 	```bash
 	> vi /etc/sysconfig/network-scripts/ifcfg-ens33
 	```
-	<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202307110938671.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       ifcfg-ens33   	</div> </center>
+	{{< html >}}<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://webp.buli-home.cn/2023/07/202307110938671.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       ifcfg-ens33   	</div> </center>{{< /html >}}
 	
 	上图红框为修改内容, 绿框为新增内容
 	```bash
@@ -101,7 +101,7 @@ repost:
 	# 将其中内容删除, 改为: `buli_server1`
 	> vi /etc/hosts
 	```
-	<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202307110956306.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       /etc/hosts   	</div> </center>
+	{{< html >}}<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://webp.buli-home.cn/2023/07/202307110956306.png" width = "85%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       /etc/hosts   	</div> </center>{{< /html >}}
 9. 重启
 	```bash
 	> reboot -f

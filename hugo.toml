@@ -2,3 +2,6 @@ baseURL = 'https://buli-home.cn/'
 defaultContentLanguage = 'zh-cn'
 title = 'Buli Home'
 theme = "FixIt"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"

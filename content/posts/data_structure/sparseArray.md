@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png
 author: ""
 authorLink: ""
 description: ""
@@ -47,12 +47,12 @@ seo:
 
 
 
-首先, 看一个🌰. 现在有一个五子棋程序, 其中有一个**存盘退出**和**续上盘**的功能. 
+首先, 看一个. 现在有一个五子棋程序, 其中有一个**存盘退出**和**续上盘**的功能. 
 
-<center>
+{{< html >}}<center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/2022-03/202203071712035.png" width = "65%" alt="" onclick="window.open(this.src)"/>
+    src="https://webp.buli-home.cn/2022/03/202203071712035.png" width = "65%" alt="" onclick="window.open(this.src)"/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -60,7 +60,8 @@ seo:
     padding: 2px;">
       二维数组记录棋盘
   	</div>
-</center>
+</center>{{< /html >}}
+
 
 
 
@@ -104,7 +105,7 @@ int[][] array = {
 
 > 表中第一行记录了一共几行几列以及多少个非零值
 
-从上面这个🌰就能看出来, 将原本需要`7*8=56`个空间变为了`3*8=24`个空间. 
+从上面这个就能看出来, 将原本需要`7*8=56`个空间变为了`3*8=24`个空间. 
 
 
 

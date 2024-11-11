@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png
 author: ""
 authorLink: ""
 description: ""
@@ -60,6 +60,7 @@ Base64 加密支持加密以下参数:
 
 接下来展示怎么使用 `base64` 进行加密:
 1. 在配置文件中添加新的配置项 `shade.identifier`, 这个配置项指示要使用的加密方法, 在这个示例中, 应该在配置中添加 `shade.identifier = base64`, 如下所示：
+
 	```config
 	#
 	# Licensed to the Apache Software Foundation (ASF) under one or more
@@ -117,6 +118,7 @@ Base64 加密支持加密以下参数:
 	}	
 	```
 2. 使用基于不同计算引擎的命令行来加密配置文件, 🌰中使用 Zeta (SeaTunnel 自研):
+
 	```shell
 	> ${SEATUNNEL_HOME}/bin/seatunnel.sh --config config/v2.batch.template --encrypt
 	```
@@ -158,15 +160,17 @@ Base64 加密支持加密以下参数:
 	}
 	```
 3. 当然, 不仅支持加密配置文件, 如果用户想查看解密后的配置文件, 可以执行以下命令: 
+
 	```shell
 	> ${SEATUNNEL_HOME}/bin/seatunnel.sh --config config/v2.batch.template --decrypt
 	```
-	
+
 ## 如何实现用户自定义加解密
 如果想自定义加密方法和加密配置, 本节将帮助来解决问题. 
 
 1. 创建一个 Java 的 maven 项目
 2. 添加 `seatunnel-api` 模块在 `pom.xml`中:
+
 	```xml
 	<dependency>
 		<groupId>org.apache.seatunnel</groupId>
@@ -175,6 +179,7 @@ Base64 加密支持加密以下参数:
 	</dependency>
 	```
 3. 创建一个新的类, 并实现 `ConfigShade` 接口, 这个接口有下列方法:
+
 	```java
 	/**
 	 * The interface that provides the ability to encrypt and decrypt {@link

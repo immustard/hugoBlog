@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png
 author: ""
 authorLink: ""
 description: ""
@@ -72,12 +72,12 @@ seo:
 
 | 字符(宽一点宽一点宽一点) | 描述                                                         | 🌰                                                            |
 | ------------------------ | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| `[ABC]`                  | 匹配`[...]`中的所有字符                                      | <img src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202301031455375.png" style="zoom:50%;" /> |
-| `[^ABC]`                 | 匹配除了`[...]`中字符的所有字符                              | <img src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202301031456093.png" style="zoom:50%;" /> |
-| `[A-Z]`                  | `[A-Z]`表示一个区间, 匹配所有大写字母, `[a-z]`表示所有小写字母 | <img src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202301031457525.png" style="zoom:50%;" /> |
-| `.`                      | 匹配除换行符(`\n`,`\r`)之外的任何单个字符, 相等于`[^\n\r]`   | <img src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202301031458602.png" style="zoom:50%;" /> |
-| `[\s\S]`                 | 匹配所有. `\s`是匹配所有空白符(包括换行), `\S`非空白符(不包括换行) | <img src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202301031458960.png" style="zoom:50%;" /> |
-| `\w`                     | 匹配字母, 数字, 下划线. 等价于`[A-Za-z0-9_]`                 | <img src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202301031453610.png" style="zoom:50%;" /> |
+| `[ABC]`                  | 匹配`[...]`中的所有字符                                      | <img src="https://webp.buli-home.cn/2023/01/202301031455375.png" style="zoom:50%;" /> |
+| `[^ABC]`                 | 匹配除了`[...]`中字符的所有字符                              | <img src="https://webp.buli-home.cn/2023/01/202301031456093.png" style="zoom:50%;" /> |
+| `[A-Z]`                  | `[A-Z]`表示一个区间, 匹配所有大写字母, `[a-z]`表示所有小写字母 | <img src="https://webp.buli-home.cn/2023/01/202301031457525.png" style="zoom:50%;" /> |
+| `.`                      | 匹配除换行符(`\n`,`\r`)之外的任何单个字符, 相等于`[^\n\r]`   | <img src="https://webp.buli-home.cn/2023/01/202301031458602.png" style="zoom:50%;" /> |
+| `[\s\S]`                 | 匹配所有. `\s`是匹配所有空白符(包括换行), `\S`非空白符(不包括换行) | <img src="https://webp.buli-home.cn/2023/01/202301031458960.png" style="zoom:50%;" /> |
+| `\w`                     | 匹配字母, 数字, 下划线. 等价于`[A-Za-z0-9_]`                 | <img src="https://webp.buli-home.cn/2023/01/202301031453610.png" style="zoom:50%;" /> |
 
 
 

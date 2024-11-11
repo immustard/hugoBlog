@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png
 author: ""
 authorLink: ""
 description: ""
@@ -64,12 +64,12 @@ seo:
 
 ## 地址生成
 
-用一个C语言的函数来举个🌰
+用一个C语言的函数来举个
 
-<center>
+{{< html >}}<center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/2022-03/202203171133969.png" width = "65%" alt="" onclick="window.open(this.src)"/>
+    src="https://webp.buli-home.cn/2022/03/202203171133969.png" width = "65%" alt="" onclick="window.open(this.src)"/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -77,7 +77,8 @@ seo:
     padding: 2px;">
       逻辑地址生成
   	</div>   
-</center>
+</center>{{< /html >}}
+
 
 
 从最开始的**'符号逻辑地址'**到最终的**'具体逻辑地址'**, 经过了上面的这些转换过程, 而这些过程是基本上不需要操作系统来帮助的, 而是通过应用程序、编译器或者Loader就可以完成.  但是当把这个地址放入到内存中之后也是逻辑地址而不是物理地址. 
@@ -86,10 +87,10 @@ seo:
 
 再把之前的操作系统架构中的图片拿出来:
 
-<center>
+{{< html >}}<center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/2022-04/202204271432111.png" width = "65%" alt="" onclick="window.open(this.src)"/>
+    src="https://webp.buli-home.cn/2022/04/202204271432111.png" width = "65%" alt="" onclick="window.open(this.src)"/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -97,7 +98,8 @@ seo:
     padding: 2px;">
       物理地址生成
   	</div>
-</center>
+</center>{{< /html >}}
+
 
 
 * CPU方面: 

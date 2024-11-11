@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png
 author: ""
 authorLink: ""
 description: ""
@@ -61,9 +61,9 @@ MapReduce 作业通过将输入的数据集拆分为独立的块, 这些块由`m
 
 ## 编程模型简述
 
-现在以词频统计(word count)为🌰, MapReduce 处理的流程:
+现在以词频统计(word count)为, MapReduce 处理的流程:
 
-<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202302281406873.png" width = "65%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       wc 处理流程   	</div> </center>
+{{< html >}}<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://webp.buli-home.cn/2023/02/202302281406873.png" width = "65%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       wc 处理流程   	</div> </center>{{< /html >}}
 
 1. **input**: 读取文本文件
 2. **splitting**: 将文本按照行进行拆分, 此时得到`K1`行数, `V1`表示对应行的文本内容

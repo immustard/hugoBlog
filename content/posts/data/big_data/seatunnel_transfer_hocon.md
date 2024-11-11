@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png
 description:
 keywords:
 license:
@@ -87,6 +87,7 @@ HOCON (Human-Optimized Config Object Notation) 是一种易于使用的配置格
 	```
 
 2. `org.apache.seatunnel.core.starter.SeaTunnel`: 
+
 	```java
 	/**
 	 * 这个方法是 SeaTunnel 的入口.
@@ -109,6 +110,7 @@ HOCON (Human-Optimized Config Object Notation) 是一种易于使用的配置格
 	```
 
 3. 接下来看 `Spark` 的解析过程, `org.apache.seatunnel.core.starter.spark.command.SparkTaskExecuteCommand`: 
+
 	```java
 	@Override
 	public void execute() throws CommandExecuteException {
@@ -122,8 +124,9 @@ HOCON (Human-Optimized Config Object Notation) 是一种易于使用的配置格
 		...
 	}
 	```
-	
+
 4. `org.apache.seatunnel.core.starter.utils.ConfigBuilder`:
+
 	```java
 	public static Config of(@NonNull Path filePath) {
 		log.info("Loading config file from path: {}", filePath);
@@ -154,8 +157,9 @@ HOCON (Human-Optimized Config Object Notation) 是一种易于使用的配置格
 		}
 	}
 	```
-	
+
 5. 一路跳转, 会跳转到 `org.apache.seatunnel.shade.com.typesafe.config.impl.Parseable` 中, 从这个包名中就能看出来, 这个已经是 `hocon` 的解析包了: 
+
 	```java
 	// 最终会跳转到这个方法
 	private AbstractConfigValue rawParseValue(Reader reader, ConfigOrigin origin,
@@ -171,8 +175,9 @@ HOCON (Human-Optimized Config Object Notation) 是一种易于使用的配置格
 		}
 	}	
 	```
-	
+
 6. 最后跳转到这个类 `org.apache.seatunnel.shade.com.typesafe.config.impl.ConfigParser`, 因为这个类中的代码较多, 就不贴在这里了. 总体的思想就是按行读取配置, 通过对内容的收尾进行判断配置的层级, 从而进行转换. 
+
 	``` java
 	// 单独将这个方法拿出来是要指出一点, 为什么 SeaTunnel 将 hocon 转为 json 的时候, source、transform、sink 这三个模块是数组类型, 而不是对象. 如果用通用的 hocon 转 json 方法, 那么不能实现 SeaTunnel 的多源. 
 	private AbstractConfigValue parseValue(AbstractConfigNodeValue n, List<String> comments) {

@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png 
 author: ""
 authorLink: ""
 description: ""
@@ -99,10 +99,10 @@ seo:
 
 
 
-<center>
+{{< html >}}<center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://miro.medium.com/max/1280/1*Nv28a3S6zQFAHZd4iVy8Xw.png" width = "65%" alt="" onclick="window.open(this.src)"/>
+    src="https://webp.buli-home.cn/2024/11/ad19939c11e966a2011965e298330502.png" width = "65%" alt="" onclick="window.open(this.src)"/>
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -110,7 +110,8 @@ seo:
     padding: 2px;">
       灵活性与成长性
   	</div>
-</center>
+</center>{{< /html >}}
+
 
 
 

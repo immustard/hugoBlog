@@ -7,7 +7,7 @@ author:
   name: Mustard	
   link: https://www.buli-home.cn
   email: mustard_gxg@foxmail.com
-  avatar: https://cdn.jsdelivr.net/gh/immustard/gallery/Portrait.png
+  avatar: https://pub-7360a7072ee341a58e1e9b6541edca66.r2.dev/portrait/mustard.png
 author: ""
 authorLink: ""
 description: ""
@@ -114,7 +114,7 @@ MySQL Binlog 的格式有三种, 分别是 STATEMENT,MIXED,ROW . 在配置文件
 
 
 
-<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/202207281640445.png" width = "65%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       官方文档: MySQL主从复制过程   	</div> </center>
+<center>     <img style="border-radius: 0.3125em;     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"      src="https://webp.buli-home.cn/2022/07/202207281640445.png" width = "65%" alt="" onclick="window.open(this.src)"/>     <br>     <div style="color:orange; border-bottom: 1px solid #d9d9d9;     display: inline-block;     color: #999;     padding: 2px;">       官方文档: MySQL主从复制过程   	</div> </center>
 
 #### Canal的工作原理
 
@@ -238,9 +238,9 @@ canal.instance.filter.black.field=data_center.canal_test_2:column_2,data_center.
 
 	```xml
 	<dependency>
-    <groupId>com.alibaba.otter</groupId>
-    <artifactId>canal.client</artifactId>
-    <version>1.1.2</version>
+	<groupId>com.alibaba.otter</groupId>
+	<artifactId>canal.client</artifactId>
+	<version>1.1.2</version>
 	</dependency>
 	```
 

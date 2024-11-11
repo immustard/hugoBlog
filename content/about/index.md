@@ -11,10 +11,9 @@ math:
 
 ---
 
-{{< image src="https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/2022-02/202202221426721.jpeg">}}
+{{< image src="https://webp.buli-home.cn/2022/02/202202221426721.jpeg">}}
 
-<img src='https://cdn.jsdelivr.net/gh/immustard/gallery/pictures/2022-02/202202221426721.jpeg' style='height:300px;width:100%'/>
-
+<img src='https://webp.buli-home.cn/2022/02/202202221426721.jpeg' style='height:300px;width:100%'/>
 
 
 ## 初衷
