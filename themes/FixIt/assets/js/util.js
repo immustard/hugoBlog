@@ -42,7 +42,7 @@ export default class Util {
   isValidDate(date) {
     return date instanceof Date && !isNaN(date.getTime());
   }
-  
+
   /**
    * scroll some element into view
    * @param {String} selector element to scroll
@@ -85,5 +85,47 @@ export default class Util {
         document.body.removeChild(stagingElement);
       }
     }
+  }
+
+  /**
+   * copy text to clipboard
+   * @param {String} text text to copy
+   * @returns {Promise} promise
+   */
+  copyText(text) {
+    if (navigator.clipboard) {
+      this.copyText = (text) => navigator.clipboard.writeText(text);
+      return this.copyText(text);
+    }
+    this.copyText = (text) => new Promise((resolve, reject) => {
+      const input = document.createElement('input');
+      input.value = text;
+      document.body.appendChild(input);
+      input.select();
+      if (document.execCommand('copy')) {
+        document.body.removeChild(input);
+        resolve();
+      } else {
+        reject();
+      }
+    });
+    return this.copyText(text);
+  }
+
+  /**
+   * check if a string is a JS object string
+   * @example isObjectLiteral("{a:1,b:2}") // true
+   * @param {String} str string to check
+   * @returns {Boolean} whether the string is a JS object string
+   */
+  isObjectLiteral(str) {
+    if (typeof str !== 'string') {
+      return false;
+    }
+    str = str.replace(/\s+/g, ' ').trim().replace(/;$/, '')
+    if (str.startsWith('{') && str.endsWith('}')) {
+      return true;
+    }
+    return false;
   }
 }

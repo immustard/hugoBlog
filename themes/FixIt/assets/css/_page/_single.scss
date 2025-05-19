@@ -1,6 +1,7 @@
 @import '../_partials/_single/toc';
 @import '../_partials/_single/fixit-decryptor';
 @import '../_partials/_single/collections';
+@import '../_partials/_single/related';
 
 .single {
   .single-title {
@@ -97,6 +98,7 @@
   hr {
     position: relative;
     height: 1em;
+    margin-block: 1em;
     background: linear-gradient(to right, var(--#{$prefix}hr-background-color) 50%, transparent 50%);
     background-size: 10px 2px;
     background-position: center;
@@ -104,8 +106,6 @@
     border: none;
 
     &.awesome-hr {
-      margin-block: 0.5em;
-
       &::before {
         display: inline-block;
         font-weight: 600;
@@ -230,6 +230,41 @@
 
     ul {
       list-style-type: disc;
+
+      // Task lists
+      li[data-task] {
+        list-style: none;
+        margin-left: -1.5rem;
+      }
+    }
+
+    // Task lists
+    li[data-task] {
+      color: var(--#{$prefix}task-color);
+      .checkbox-icon {
+        margin-right: 0.25em;
+        color: var(--#{$prefix}checkbox-color);
+      }
+    }
+    li[data-task='x'],
+    li[data-task='-'] {
+      --#{$prefix}task-color: var(--#{$prefix}secondary);
+      text-decoration: line-through rgba(145, 145, 145, 0.6);
+    }
+    li[data-task='x'] {
+      --#{$prefix}checkbox-color: var(--#{$prefix}primary);
+    }
+    li[data-task='-'] {
+      opacity: 0.6;
+    }
+    li[data-task='/'] {
+      --#{$prefix}task-color: var(--#{$prefix}success);
+    }
+    li[data-task='!'] {
+      --#{$prefix}checkbox-color: var(--#{$prefix}danger);
+    }
+    li[data-task='?'] {
+      --#{$prefix}checkbox-color: var(--#{$prefix}warning);
     }
 
     dl {
@@ -257,7 +292,22 @@
       }
     }
 
+    mark {
+      padding: 0.14em 0.28em;
+      background-color: var(--#{$prefix}mark-background-color, mark);
+      color: var(--#{$prefix}mark-color, marktext);
+      @include border-radius($global-border-radius);
+
+      @each $color, $value in $theme-colors {
+        &.mark-#{$color} {
+          --#{$prefix}mark-color: #fff;
+          --#{$prefix}mark-background-color: var(--#{$prefix}#{$color});
+        }
+      }
+    }
+
     .table-wrapper {
+      position: relative;
       overflow-x: auto;
       --#{$prefix}scrollbar-thumb-color: #{$table-background-color};
 
@@ -317,31 +367,9 @@
 
     img {
       max-width: 100%;
-      min-height: 1em;
-
-      &:not([height]) {
-        height: auto;
-      }
-
-      &[loading='lazy'][srcset]:not([data-lazyloaded]) {
-        &:not(.suffix-invalid__small) {
-          width: var(--width-small, var(--width));
-          aspect-ratio: var(--aspect-ratio-small, var(--aspect-ratio));
-        }
-
-        &:not(.suffix-invalid) {
-          @media (min-resolution: 1.01dppx) and (max-resolution: 1.5dppx) {
-            width: calc(var(--width) / 1.5);
-            aspect-ratio: var(--aspect-ratio);
-          }
-        }
-
-        &:not(.suffix-invalid__large) {
-          @media (min-resolution: 1.51dppx) {
-            width: calc(var(--width-large, var(--width)) / 2);
-            aspect-ratio: var(--aspect-ratio-large, var(--aspect-ratio));
-          }
-        }
+      // SVG performs differently in Safari compared to other browsers
+      &:not([src*='.svg']) {
+        min-height: 1em;
       }
 
       &.version {
@@ -370,6 +398,7 @@
       img {
         display: block;
         margin: 0 auto;
+        height: auto;
         overflow: hidden;
       }
     }
@@ -449,10 +478,6 @@
       }
     }
 
-    hr {
-      margin-block: 0;
-    }
-
     kbd {
       display: inline-block;
       padding: 0 0.25rem;
@@ -470,6 +495,13 @@
         color: $code-color-dark;
         @include box-shadow(inset 0 -1px 0 $global-border-color-dark);
       }
+    }
+
+    // Katex styles
+    .katex-display {
+      max-width: 100%;
+      overflow-x: auto;
+      padding-block: 2px;
     }
 
     @import '../_partials/_single/alert';

@@ -39,6 +39,7 @@ $global-link-hover-color: #2983bb !default; // 潮蓝
 $global-link-hover-color-dark: #fff !default;
 
 // Color of the border
+// TODO refactor border colors
 $global-border-color: #f0f0f0 !default;
 $global-border-color-dark: #363636 !default;
 // ========== Global ========== //
@@ -101,6 +102,10 @@ $toc-content-font-size: 0.875rem !default;
 // Font size of the Collection List
 $collection-title-font-size: 1rem !default;
 $collection-list-font-size: 0.875rem !default;
+
+// Font size of the Related Content List
+$related-title-font-size: 1rem !default;
+$related-list-font-size: 0.875rem !default;
 
 // Color of the single link
 $single-link-color: #2376b7 !default; // 花青
