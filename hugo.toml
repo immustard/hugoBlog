@@ -5,3 +5,8 @@ theme = "FixIt"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
+  _merge = "shallow"
+[outputs]
+  _merge = "shallow"
+[taxonomies]
+  _merge = "shallow"
